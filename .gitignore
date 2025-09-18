@@ -1,0 +1,26 @@
+# Fichiers d'environnement
+.env
+.env.local
+.env.production
+
+# Fichiers de configuration sensibles
+config.php
+
+# Dossiers de dépendances
+vendor/
+node_modules/
+
+# Fichiers de cache
+*.cache
+*.tmp
+
+# Logs
+*.log
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
