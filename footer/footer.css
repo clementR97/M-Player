@@ -1,0 +1,82 @@
+#rectangle_lecteur{
+    width: 98.9%;
+    height: 160px;
+    border: solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    
+   /* right: 5px;  */
+    /* right: 200px; */
+    background-color: black;
+}
+#img_album{
+width: 130px;
+height: 130px;
+/* border: solid; */
+border-radius: 20px;
+}
+#titre_chanson{
+    border: solid;
+    width: 800px;
+    height: 150px;
+    display: flex; 
+    flex-direction: column;
+}
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 700px;
+    background: #ddd;
+    height: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+@media  screen and (max-width: 1024px) {
+    input[type="range"]{
+        visibility: collapse;
+    }
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 5px;
+    height: 20px;
+    background:white;
+    cursor: pointer;
+    
+}
+.style_button{
+    border: none;
+    background-color: transparent;
+    width: 80px;
+    height: 80px;
+}
+.style_button:hover{
+  cursor: pointer;
+  color: gray;
+}
+
+#play_pause_Btn{
+    background-image: url(../footer/icon_lecture/play.png);
+    background-size: cover;
+   
+    
+  }
+  #rewindBtn{
+    background-image: url(../footer/icon_lecture/rewind-2.png);
+    background-size: cover;
+    
+}
+#forwardBtn{
+    background-image: url(../footer/icon_lecture/forward.png);
+    background-size: cover;
+   
+}
+
+#audio_album{
+    display: flex;
+    align-items: center;
+}
+

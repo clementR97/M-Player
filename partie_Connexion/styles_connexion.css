@@ -1,0 +1,66 @@
+ body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#wave-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  
+}canvas {
+    display: block;
+}
+#rectangle_connexion {
+    width: 40em ;
+    height: 40em ;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 30px;
+}
+
+input:focus::placeholder{
+   color: transparent;
+   transition: 0.2s;
+  
+}
+#formulaire_connexion{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 300px;
+    border: none;
+    border-bottom:solid 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+button{
+    width: 300px;
+    height: 50px;
+    border-radius: 15px !important;
+    border: none;
+}
+#boutton_connexion:hover{
+  background-color: blueviolet;
+  transition: 0.3s;
+}
+#other_connexion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#img_google{
+background-image: url(../img/google.png);
+background-size: contain;
+width: 30px;
+height: 30px;
+}
+#button_google{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 

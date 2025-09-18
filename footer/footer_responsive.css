@@ -1,0 +1,36 @@
+#img_album{
+    width: 100px;
+    height: 100px;
+    /* border: solid; */
+    
+}
+#rectangle_lecteur{
+height: 120px;
+border-radius: 20px;
+width:550px;
+
+}
+#titre_chanson{
+font-size: 12px;
+width: 200px;
+height: 100px;
+align-items: center;
+   position: relative;    
+}
+      
+#audio_album{
+display: flex;
+        
+}
+.style_button{
+width: 60px;
+height: 60px;
+}
+#currentTime{
+    visibility: visible;
+    position: absolute;
+    left: 100px;
+}
+
+
+    

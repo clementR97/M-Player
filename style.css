@@ -1,0 +1,70 @@
+body,html{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+}
+/* partie wave index.php*/
+#wave-container {
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  
+}canvas {
+    display: block;
+}
+#btn_connexion{
+    width: 350px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 30px;
+    background-color: blueviolet;
+    transition: 0.5s;
+}
+#btn_inscription{
+    width: 350px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 30px;
+    background-color: transparent;
+}
+#btn_inscription:hover{
+    background-color: blueviolet;
+    transition: 0.5s;
+}
+.btn1:hover{
+    cursor: pointer;
+}
+#partie_button{
+    margin-top: 20px;
+    
+}
+#img_logo{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#logo_index{
+    color: white;
+    font-size: 60px;
+}
+
+
+
+
+
+

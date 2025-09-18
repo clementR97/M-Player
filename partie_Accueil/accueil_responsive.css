@@ -1,0 +1,15 @@
+.rectangle_album{
+    width: 160px; 
+    height: 150px;
+}
+
+.text_action_album  {
+  
+   visibility: collapse;
+}
+.titre_responsive{
+    font-size: 15px;
+    visibility: visible;
+    position: absolute;
+    top: 150px;
+}
